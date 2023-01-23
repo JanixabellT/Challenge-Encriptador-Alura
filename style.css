@@ -218,14 +218,14 @@ footer {
         font-size: 15px;
         position: absolute;
         top: 700px;
-        left: 130px;
+        left: 145px;
     }
 
     .informacion2{
         font-size: 12px;
         position: absolute;
         top: 750px;
-        left: 80px;
+        left: 100px;
      }
 
     .pie-pagina{
@@ -235,8 +235,8 @@ footer {
     }
 
     footer{
-        padding: 20px;
-        background-size: contain;
+        padding: 10px;
+        background-size: cover;
     }
 
 }
