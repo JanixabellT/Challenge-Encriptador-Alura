@@ -134,9 +134,16 @@ textarea#textoDesencriptado.mensaje{
     font-size: 18px;
     background: transparent;
     position: initial;
-    margin: 0px 0px 0px 850px;
+   /* margin: 0px 0px 0px 850px;*/
     font-family: 'Montserrat';
   
+}
+
+footer{
+    text-align: initial;
+    background: url("Imagenes/pie.png");
+    background-repeat: no-repeat;
+    padding: 60px;
 }
 
 @media screen and (max-width:480px){
