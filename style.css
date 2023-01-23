@@ -39,13 +39,13 @@ main{
 
 textarea#textoDesencriptado.mensaje{
     width: 400px;
-    height: 765px;
+    height: 800px;
 }
 
 .mensaje{
     font-size: 20px;
     background: white;
-    background-image: url("imagenes/Muñeco.png");
+    background-image: url("Imagenes/Muñeco.png");
     background-repeat: no-repeat;
     background-position: center;
     border: none;
@@ -95,7 +95,7 @@ textarea#textoDesencriptado.mensaje{
     width: 328px;
     margin-left: 58px;
     position: absolute;
-    top: 775px;
+    top: 830px;
     left: 803px;
 }
 
@@ -129,30 +129,41 @@ textarea#textoDesencriptado.mensaje{
 }
 
 .pie-pagina{
-    
     color: #121213;
     font-size: 18px;
     background: transparent;
     position: initial;
-    margin-left: 850px;
     font-family: 'Montserrat';
-  
+    margin: 0px;
+}
+
+footer {
+    text-align: initial;
+    background: url(Imagenes/pie.png);
+    background-repeat: no-repeat;
+    padding: 60px;
 }
 
 @media screen and (max-width:480px){
     .logo{
         margin: 20px;
     }
+    
     main{
         flex-direction: column;
         display: inline-flex;
         margin: 30px;
     }
+    
     .text-area{
         margin: 10px;
         font-size: 20px;
     }
 
+    textarea#textoEncriptado.text-area{
+        height: 250px;
+    }
+    
     textarea#textoDesencriptado.mensaje{
         height: 300px;
     }
@@ -160,15 +171,18 @@ textarea#textoDesencriptado.mensaje{
     .informacion{
         font-size: 15px;
     }
+    
     .botones{
         margin: 15px;
     }
+    
     .boton-encriptar{
         height: 50px;
         width: 170px;
         border-radius: 15px;
         font-size: 25px;
     }
+    
     .boton-desencriptar{
         height: 50px;
         width: 170px;
@@ -181,6 +195,7 @@ textarea#textoDesencriptado.mensaje{
         width: auto;
         height: 300px;
     }
+    
     .mensaje{
         background-position: right;
         background-size: 30%;
@@ -211,12 +226,17 @@ textarea#textoDesencriptado.mensaje{
         position: absolute;
         top: 750px;
         left: 80px;
-        
-    }
+     }
 
     .pie-pagina{
         margin-left: 10px;
-        font-size: 14px;
+        font-size: 08px;
+        background-color: transparent;
+    }
+
+    footer{
+        padding: 20px;
+        background-size: contain;
     }
 
 }
