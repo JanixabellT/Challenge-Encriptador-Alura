@@ -134,7 +134,7 @@ textarea#textoDesencriptado.mensaje{
     font-size: 18px;
     background: transparent;
     position: initial;
-    margin-left: 850px;
+    margin: 0px 0px 0px 850px;
     font-family: 'Montserrat';
   
 }
