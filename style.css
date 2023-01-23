@@ -45,7 +45,7 @@ textarea#textoDesencriptado.mensaje{
 .mensaje{
     font-size: 20px;
     background: white;
-    background-image: url("imagenes/Muñeco.png");
+    background-image: url("Imagenes/Muñeco.png");
     background-repeat: no-repeat;
     background-position: center;
     border: none;
