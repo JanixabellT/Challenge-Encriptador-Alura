@@ -128,9 +128,7 @@ textarea#textoDesencriptado.mensaje{
     display: none;
 }
 
-
 .pie-pagina{
-    
     color: #121213;
     font-size: 18px;
     background: transparent;
@@ -150,11 +148,13 @@ footer {
     .logo{
         margin: 20px;
     }
+    
     main{
         flex-direction: column;
         display: inline-flex;
         margin: 30px;
     }
+    
     .text-area{
         margin: 10px;
         font-size: 20px;
@@ -171,15 +171,18 @@ footer {
     .informacion{
         font-size: 15px;
     }
+    
     .botones{
         margin: 15px;
     }
+    
     .boton-encriptar{
         height: 50px;
         width: 170px;
         border-radius: 15px;
         font-size: 25px;
     }
+    
     .boton-desencriptar{
         height: 50px;
         width: 170px;
@@ -192,6 +195,7 @@ footer {
         width: auto;
         height: 300px;
     }
+    
     .mensaje{
         background-position: right;
         background-size: 30%;
@@ -222,12 +226,17 @@ footer {
         position: absolute;
         top: 750px;
         left: 80px;
-        
-    }
+     }
 
     .pie-pagina{
-        font-size: 14px;
+        margin-left: 10px;
+        font-size: 08px;
+        background-color: transparent;
+    }
+
+    footer{
         padding: 20px;
+        background-size: contain;
     }
 
 }
