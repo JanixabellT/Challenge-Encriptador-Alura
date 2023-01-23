@@ -136,7 +136,7 @@ textarea#textoDesencriptado.mensaje{
     background: transparent;
     position: initial;
     font-family: 'Montserrat';
-  
+    margin: 0px;
 }
 
 footer {
@@ -160,6 +160,10 @@ footer {
         font-size: 20px;
     }
 
+    textarea#textoEncriptado.text-area{
+        height: 250px;
+    }
+    
     textarea#textoDesencriptado.mensaje{
         height: 300px;
     }
@@ -222,8 +226,8 @@ footer {
     }
 
     .pie-pagina{
-        margin-left: 10px;
         font-size: 14px;
+        padding: 20px;
     }
 
 }
