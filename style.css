@@ -39,7 +39,7 @@ main{
 
 textarea#textoDesencriptado.mensaje{
     width: 400px;
-    height: 765px;
+    height: 800px;
 }
 
 .mensaje{
@@ -95,7 +95,7 @@ textarea#textoDesencriptado.mensaje{
     width: 328px;
     margin-left: 58px;
     position: absolute;
-    top: 775px;
+    top: 830px;
     left: 803px;
 }
 
