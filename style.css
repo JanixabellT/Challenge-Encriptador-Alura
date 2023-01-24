@@ -145,6 +145,11 @@ footer {
 }
 
 @media screen and (max-width:480px){
+    
+    body{
+        width: fit-content;
+    }
+        
     .logo{
         margin: 20px;
     }
